@@ -1,16 +1,44 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en-US">
+
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>Coding Template</title>
-  <link rel="stylesheet" type="text/css" href="bundle.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Customer Service</title>
 </head>
 
 <body>
-  <h1>Webpack - TypeScript - Scss</h1>
-  <h2>TypeScript Hello World</h2>  
-  <div id="content"></div>
+    <h1>Customer Service</h1>
+
+    <h2>Get all customers</h2>
+    <button id="getAllButton">Get all customers</button>
+
+    <h2>Customer by ID</h2>
+    <input id="idInput" placeholder="ID" />
+    <button id="idButton">Find Customer</button>
+
+    <div id="content"></div>
     
-  <script src="bundle.js"></script>
+    
+
+    <h2>Delete</h2>
+    <input id="deleteInput" placeholder="ID" />
+    <button id="deleteButton">Delete</button>
+
+    
+
+    <div id="contentDelete"></div>
+
+    <h2>Add</h2>
+    <input id="addFirstName" placeholder="First name" />
+    <input id="addLastName" placeholder="Last name" />
+    <input id="addYearOfReg" placeholder="Year of registration" type="number" />
+    <button id="addButton">Add</button>
+
+    <div id="contentAdd"></div>
+
+
+    <script src="bundle.js"></script>
 </body>
+
 </html>
